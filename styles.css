@@ -1,0 +1,49 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Section styles */
+#about-me {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+#about-me h1 {
+  text-align: center;
+  color: #0056b3;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+#about-me p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Add responsiveness */
+@media (max-width: 600px) {
+  #about-me {
+    padding: 15px;
+  }
+
+  #about-me h1 {
+    font-size: 1.5rem;
+  }
+
+  #about-me p {
+    font-size: 1rem;
+  }
+}
